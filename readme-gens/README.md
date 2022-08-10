@@ -1,8 +1,8 @@
-# a
+# a [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 ## Description
   
-s
+a
   
 ## Table of Contents 
   
@@ -15,27 +15,31 @@ s
   
 ## Installation
   
-d
+a
   
 ## Usage
   
-f
+a
 
-## License
+## License 
 
-g
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/) 
+
+"A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code."
+
+Read more about this license at: https://choosealicense.com/licenses/unlicense/
 
 ## Credits
   
-h
+a
  
 ## Tests
   
-j
+a
 
 ## Questions
 
-Github: k
+Github: a
 
-Email: l
+Email: a
 

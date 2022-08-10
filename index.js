@@ -10,13 +10,13 @@ const questions = [
     'If applicable, what are the steps required to install your project?', // install
     'Provide instructions and examples for use.', // usage
     'Choose the open source license that applies to this project.', // license
-    'List your collaborators, if any, with links to their GitHub profiles.', // contrib
+    'Provide guidelines for how other developers can contribute to this project.', // contrib
     'Provide tests and examples of how to run them if available.', // tests
     'Enter a GitHub username for questions and comments.', // github
     'Enter your email for questions and comments.' // email
 ];
 
-// TODO: Create a function to write README file
+// Create a function to write README file
 function writeToFile(fileName, data) {    
     fs.writeFile(fileName,
         md.generateMarkdown(data),
@@ -26,7 +26,7 @@ function writeToFile(fileName, data) {
     )
 }
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 function init() {
     inquirer
         .prompt([
@@ -36,7 +36,7 @@ function init() {
                 name: 'name',
             },
             { // desc
-                type: 'input',
+                type: 'editor',
                 message: questions[1],
                 name: 'desc',
             },
@@ -51,9 +51,19 @@ function init() {
                 name: 'usage',
             },
             { // license
-                type: 'input',
+                type: 'list',
                 message: questions[4],
                 name: 'license',
+                choices: [
+                    'GNU AGPL v3',
+                    'GNU GPL v3',
+                    'GNI LGPL v3',
+                    'Mozilla Public License 2.0',
+                    'Apache License 2.0',
+                    'MIT License',
+                    'Boost Software License 1.0',
+                    'The Unlicense'
+                ]
             },
             { // contrib
                 type: 'input',
