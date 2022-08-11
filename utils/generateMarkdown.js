@@ -106,7 +106,7 @@ ${renderLicenseBadge(data.license)}
 
 Read more about this license at: ${renderLicenseLink(data.license)}
 
-## Credits
+## How To Contribute
   
 ${data.contrib}
  
@@ -116,7 +116,9 @@ ${data.tests}
 
 ## Questions
 
-Github: ${data.github}
+If you have any questions, feel free to contact me at:
+
+Github Link: https://github.com/${data.github}
 
 Email: ${data.email}
 

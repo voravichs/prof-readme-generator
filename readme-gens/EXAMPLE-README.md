@@ -19,7 +19,7 @@ Simply run the project from it current folder using "node index.js."
   
 ## Usage
   
-When you run the project using "node index.js" from its folder, you will be prompted about the specifications of the README, such as name, description, installation steps, usage, license, tests, how to collaborate, and contact information. For all fields other than license, a user can enter a text input into the command line and the program will write it to the resulting README. The description section will pull up a text editor so that longer descriptions can easily be written. The license section provides choices for the user that will determine the badge, link, and license text in the README.
+When you run the project using "node index.js" from its folder, you will be prompted about the specifications of the README, such as name, description, installation steps, usage, license, tests, how to collaborate, and contact information.  For all fields other than license, a user can enter a text input into the command line and the program will write it to the resulting README. The description section will pull up a text editor so that longer descriptions can easily be written. The license section provides choices for the user that will determine the badge, link, and license text in the README.
 
 ## License 
 
